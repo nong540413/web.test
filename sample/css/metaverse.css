@@ -1,0 +1,102 @@
+@import url('http://fonts.googleapis.com/css?family=Arvo:700|Open+Sans:400italic,400');
+@import url('http://fast.fonts.com/cssapi/95b765fd-fae4-4f1b-8155-d8244914a5c6.css');
+
+html{
+    margin: 0;
+    padding: 0;
+}
+body {
+ background-image: url(/images/metaverse.png);
+ font-family: Open Sans, Frutiger,sans-serif;
+ background-attachment: fixed;
+}
+
+h1, h2 {
+    font-family: Adelle W01 Bold,Arvo,Georgia,serif;
+}
+.header h1{
+    font-size: 5em;
+    color: white;
+}
+.header p{
+    float: right;
+    width: 45%;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+    
+}
+h2{
+    font-size: 2.5em;
+    color: #dd3b2a;
+}
+
+.header {
+    height: 492px;
+    background-color: rgb(255,255,255,);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    
+}
+
+.main {
+    background-color: rgb(255,255,255,0.7);
+    border-top: 5px solid #dd3b2a;
+    border-bottom: 50px solid white;
+}
+.definition{
+    display: inline-block;
+    position: relative;
+    width: 45%;
+    padding: 20px;
+    bottom: 82px;
+    text-align: left;
+}
+.howitwork{
+    display: inline-block;
+    position: relative;
+    width: 45%;
+    padding: 20px;
+    text-align: left;
+    
+}  
+
+.supporting {
+    background-color:  #edf6ff;
+    border-top: 5px solid  #cce4fb;
+    border-bottom: 5px solid white;
+}
+.whoplayer{
+    width: 45%;
+    padding: 20px;
+    clear: left;
+}
+.willhappen{
+    width: 45%;
+    padding: 20px;
+}
+
+.summary {
+    background-color: rgb(255,255,255,0.7);
+    border-top: 5px solid #dd3b2a;
+}
+.header > .content{
+    width: 80%;
+}
+.main > .content{
+    width: 80%;
+}
+.summary > .content{
+    width: 80%;
+}
+.supporting > .content{
+    width: 80%;
+}
+.content{
+    text-align: center;
+    margin: auto;
+}
+
+
+
+
